@@ -13,4 +13,4 @@ node start.js
 
 Also you can watch it here
 https://youtu.be/E55sfFQJ_C0
-bad timings because of the same two things :^)
+bad timings because of cpu issue :^)
