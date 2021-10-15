@@ -1,5 +1,6 @@
 const sharp = require("sharp");
 const ffmpeg = require("ffmpeg");
+const { exit } = require('process');
 
 const newPixelArray = [];
 const range = [".", ",", ":", ";", "+", "*", "?", "%", "S", "#", "@"];
@@ -52,7 +53,7 @@ async function print() {
         await sleep(1000 / 48);
         console.clear();
       } else {
-        console.log("done");
+        exit(1);
       }
     }, 1000 / 48);
   } catch (err) {
