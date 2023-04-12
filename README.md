@@ -1,5 +1,5 @@
 # bad-apple-ascii
-```pre-install ffmpeg'''
+```pre-install ffmpeg```
 
 ```bash
 node start.js
